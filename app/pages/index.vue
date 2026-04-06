@@ -1,11 +1,3 @@
 <template>
-  <div>hello world!</div>
+  <UiHomeScreen />
 </template>
-
-<script setup lang="ts">
-
-</script>
-
-<style scoped>
-
-</style>
