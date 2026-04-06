@@ -6,7 +6,7 @@
     </h1>
     <p class="hero-section__subtitle">Record 1 message to unlock 5</p>
 
-    <BaseButton>
+    <BaseButton @click="openRecorder">
       <template #icon>
         <BaseMicIcon />
       </template>
@@ -14,6 +14,14 @@
     </BaseButton>
   </section>
 </template>
+
+<script setup lang="ts">
+const router = useRouter()
+
+const openRecorder = () => {
+  void router.push('/record')
+}
+</script>
 
 <style scoped lang="scss">
 .hero-section {
