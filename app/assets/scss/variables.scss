@@ -1,0 +1,35 @@
+$color-base: #050D0B;
+$color-background: #0A0F0D;
+$color-surface: #0B1F1A;
+
+$color-primary: #00E68A;
+$color-primary-light: #33F0A3;
+$color-primary-medium: #00C97A;
+$color-primary-dark: #009E61;
+
+$color-secondary: #1A3A32;
+$color-secondary-light: #244F44;
+$color-secondary-medium: #15322B;
+$color-secondary-dark: #0E2621;
+
+$color-black: #020504;
+$color-white: #E8FFF6;
+
+$color-error: #FF5F7A;
+
+$gradient-background: linear-gradient(
+  135deg,
+  #0A0F0D 0%,
+  #0A1C17 40%,
+  #0A0F0D 100%
+);
+
+$indent-xs: 8px;
+$indent-s: 12px;
+$indent-m: 16px;
+$indent-l: 20px;
+$indent-xl: 24px;
+$indent-xxl: 32px;
+$indent-2xl: 40px;
+$indent-3xl: 60px;
+$indent-4xl: 72px;

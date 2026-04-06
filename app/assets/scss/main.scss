@@ -1,0 +1,29 @@
+@import 'fonts';
+@import 'icons';
+@import 'null';
+@import 'typography';
+
+body {
+  @include body-p;
+  font-family: 'Poppins', sans-serif;
+  color: $color-white;
+  background: $gradient-background;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.content {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 120px;
+
+  @media screen and (max-width: 1200px) {
+    padding: 0 $indent-3xl;
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 0 30px;
+  }
+}
