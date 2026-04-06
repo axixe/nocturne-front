@@ -11,17 +11,17 @@
   display: flex;
   justify-content: center;
   gap: 44px;
-  padding-bottom: 12px;
+  padding-bottom: 10px;
 }
 
 .bottom-nav__item {
-  color: rgba(232, 255, 246, 0.68);
-  font-size: 24px;
+  color: rgba(232, 255, 246, 0.45);
+  font-size: 20px;
   transition: color 0.2s ease;
 
   &:hover,
   &--active {
-    color: rgba(232, 255, 246, 0.95);
+    color: $color-primary;
   }
 }
 </style>

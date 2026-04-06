@@ -14,8 +14,8 @@
   min-height: 100dvh;
   display: flex;
   justify-content: center;
-  align-items: stretch;
-  padding: 10px;
+  align-items: center;
+  padding: 28px 12px;
 }
 
 .home-screen__card {

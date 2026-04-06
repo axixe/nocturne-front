@@ -25,17 +25,19 @@
 
 .hero-section__title {
   display: grid;
-  gap: 8px;
-  margin-bottom: 18px;
-  font-size: 44px;
-  font-weight: 600;
-  line-height: 1.15;
+  gap: 10px;
+  margin-bottom: 20px;
+  color: #E8FFF6;
+  font-size: 52px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  line-height: 1.18;
 }
 
 .hero-section__subtitle {
-  margin-bottom: 34px;
-  color: rgba(232, 255, 246, 0.76);
-  font-size: 20px;
+  margin-bottom: 46px;
+  color: rgba(232, 255, 246, 0.6);
+  font-size: 18px;
   line-height: 1.4;
 }
 </style>

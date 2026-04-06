@@ -14,13 +14,14 @@ defineProps<{ progress: string }>()
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 68px;
+  margin-bottom: 84px;
+  padding: 0 2px;
 }
 
 .voice-header__title,
 .voice-header__count {
-  color: rgba(232, 255, 246, 0.8);
-  font-size: 16px;
-  letter-spacing: 0.06em;
+  color: rgba(232, 255, 246, 0.5);
+  font-size: 13px;
+  letter-spacing: 0.08em;
 }
 </style>
